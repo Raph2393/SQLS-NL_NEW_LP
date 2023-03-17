@@ -1,0 +1,117 @@
+/* Reset CSS */
+/* ------------------------------ */
+
+/* Typography */
+/* ------------------------------ */
+p {
+  font-size: 1.15rem !important;
+}
+
+/* Global Styles */
+/* ------------------------------ */
+body {
+  overflow-x: hidden;
+}
+
+/* Header */
+/* ------------------------------ */
+
+/* Navigation */
+/* ------------------------------ */
+
+/* Hero */
+/* ------------------------------ */
+
+/* About */
+/* ------------------------------ */
+
+/* Services */
+/* ------------------------------ */
+
+/* Team */
+/* ------------------------------ */
+
+/* Testimonials */
+/* ------------------------------ */
+.testimonial .text {
+  padding: 3rem;
+}
+
+/* Call to Action */
+/* ------------------------------ */
+.btn-danger {
+  background-color: orangered;
+}
+
+.btn-danger:hover {
+  background-color: rgb(255, 142, 100);
+}
+
+/* Portfolio */
+/* ------------------------------ */
+
+/* Pricing */
+/* ------------------------------ */
+
+/* Contact */
+/* ------------------------------ */
+
+/* Footer */
+/* ------------------------------ */
+.logo_footer {
+  width: 100%;
+}
+
+/* Media Queries */
+/* ------------------------------ */
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .testimonial .text {
+    padding: 1.5rem;
+  }
+
+  #button {
+    padding: 0px !important;
+  }
+
+  .main-img {
+    width: 100% !important;
+  }
+
+  .logo {
+    width: 80%;
+  }
+
+  .btn-danger:hover {
+    background-color: rgb(112, 227, 70);
+  }
+
+  .testimonial-img {
+    background-image: url(https://go.pardot.com/l/607681/2021-11-02/4qr7j/607681/16358490198rtLOZuM/MARCO_TESTIMONIAL_SQ1.jpeg);
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background-position: center;
+  }
+
+  #carouselExampleIndicators {
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 990px) {
+  .testimonial-img {
+    background-image: url(https://go.pardot.com/l/607681/2021-11-02/4qr7j/607681/16358490198rtLOZuM/MARCO_TESTIMONIAL_SQ1.jpeg);
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background-position: center;
+  }
+
+  #carouselExampleIndicators {
+    padding-bottom: 2rem;
+  }
+}
