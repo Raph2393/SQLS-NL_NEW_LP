@@ -37,6 +37,10 @@ body {
   padding: 3rem;
 }
 
+.eapps-testimonials-slider-slider .eui-slider-slide{
+      justify-content: center;
+    }
+
 /* Call to Action */
 /* ------------------------------ */
 .btn-danger {
